@@ -5,16 +5,69 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="v28drKsayPSvYIB4Eljj-1" value="Government Transparency" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="640" width="120" height="60" as="geometry" />
+          <mxGeometry x="360" y="640" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="v28drKsayPSvYIB4Eljj-2" value="Government Revenue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="640" width="140" height="60" as="geometry" />
+        <mxCell id="v28drKsayPSvYIB4Eljj-2" value="Agency&lt;div&gt;(Government)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="640" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="v28drKsayPSvYIB4Eljj-3" value="Real Estate Market" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="520" width="120" height="60" as="geometry" />
+          <mxGeometry x="350" y="545" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="v28drKsayPSvYIB4Eljj-4" value="Tax from Real Estate" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="630" width="140" height="80" as="geometry" />
+        <mxCell id="v28drKsayPSvYIB4Eljj-5" value="Allocation Branch" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="160" y="750" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v28drKsayPSvYIB4Eljj-6" value="Distribution Branch" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="560" y="750" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v28drKsayPSvYIB4Eljj-7" value="Stabilisation Branch" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" y="440" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v28drKsayPSvYIB4Eljj-8" value="&lt;div&gt;Principals&lt;/div&gt;(Individuals/Firms)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="640" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v28drKsayPSvYIB4Eljj-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="v28drKsayPSvYIB4Eljj-2" target="v28drKsayPSvYIB4Eljj-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="710" as="sourcePoint" />
+            <mxPoint x="450" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v28drKsayPSvYIB4Eljj-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="v28drKsayPSvYIB4Eljj-1" target="v28drKsayPSvYIB4Eljj-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="357" y="664.76" as="sourcePoint" />
+            <mxPoint x="280" y="664.76" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v28drKsayPSvYIB4Eljj-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v28drKsayPSvYIB4Eljj-8" target="v28drKsayPSvYIB4Eljj-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="630" as="sourcePoint" />
+            <mxPoint x="290" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v28drKsayPSvYIB4Eljj-13" value="Invest/Occupied" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="v28drKsayPSvYIB4Eljj-11">
+          <mxGeometry x="-0.2358" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v28drKsayPSvYIB4Eljj-12" value="Tax Revenue" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.448;entryY=-0.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="v28drKsayPSvYIB4Eljj-3" target="v28drKsayPSvYIB4Eljj-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="630" as="sourcePoint" />
+            <mxPoint x="530" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v28drKsayPSvYIB4Eljj-14" value="Public Investment&lt;div&gt;(Infrastructure)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="740" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v28drKsayPSvYIB4Eljj-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v28drKsayPSvYIB4Eljj-2" target="v28drKsayPSvYIB4Eljj-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="780" as="sourcePoint" />
+            <mxPoint x="580" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v28drKsayPSvYIB4Eljj-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="v28drKsayPSvYIB4Eljj-14" target="v28drKsayPSvYIB4Eljj-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="770" as="sourcePoint" />
+            <mxPoint x="330" y="720" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
